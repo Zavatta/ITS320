@@ -3,7 +3,7 @@ public class Phone extends Book
 	private int yellowPages, whitePages; 
 	public Phone(String title, int yellowPages, int whitePages)    
 	{     
-		super(title, pages);     
+		super(title, whitePages + yellowPages);     
 		this.yellowPages = yellowPages;   
 		this.whitePages = whitePages;
 		pages = whitePages + yellowPages;
