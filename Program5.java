@@ -20,7 +20,7 @@ public class Program5
 		try
 			{testnum.Validate(number);
 			}
-		catch
+		catch (Exception e)
 			{
 			}
 		}
